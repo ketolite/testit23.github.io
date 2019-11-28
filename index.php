@@ -1,17 +1,4 @@
-<?php
-// Query params are:  
 
-require_once dirname(__FILE__) . '/kclick_client.php';
-$client = new KClickClient('https://italian.drinks2shape.club/api.php?', 'rmkbdykdy2l5n5ldwjbrryf75bf3tzb1');
-$client->sendAllParams();       // to send all params from page query
-$client->forceRedirectOffer();       // redirect to offer if an offer is chosen
-// $client->param('sub_id_5', '123'); // you can send any params
-// $client->keyword('PASTE_KEYWORD');  // send custom keyword
-// $client->currentPageAsReferrer(); // to send current page URL as click referrer
-// $client->debug();              // to enable debug mode and show the errors
-// $client->execute();             // request to api, show the output and continue
-$client->executeAndBreak();     // to stop page execution if there is redirect or some output
-?>
 <!DOCTYPE html>
 <!-- saved from url=(0163)file:///D:/traffic/IM%20GROUP/CREOs/creo/ITALY/%D0%A4%D0%9E%D0%A2%D0%9A%D0%98/NOVEMBER/WHITE%20CLICK%20API/trackyourfitnessgoals-com-28.11.19-18.06/test/index.html -->
 <html lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript" async="" src="file://aax-us-east.amazon-adsystem.com/x/getad?src=330&amp;c=100&amp;sz=1x1&amp;apiVersion=2.0&amp;pj=%7B%22overwrite%22%3A%22false%22%2C%22div_name%22%3A%22amzn-assoc-ad-72cf4764-4889-41db-8cb7-5726bad43828%22%2C%22tracking_id%22%3A%22fitnesstra0f0-20%22%2C%22ad_type%22%3A%22one_tag%22%2C%22marketplace%22%3A%22amazon%22%2C%22enable_geo_redirection%22%3A%22true%22%2C%22enable_auto_tagging%22%3A%22false%22%2C%22region%22%3A%22US%22%2C%22placement%22%3A%22adunit%22%2C%22viewerCountry%22%3A%22RU%22%2C%22textlinks%22%3A%22151701963X%2C151701963X%2C151701963X%2CB0741CYBHK%2CB0741CYBHK%2CB0741CYBHK%2CB01BWO2JQU%2CB01BWO2JQU%2CB01BWO2JQU%2C0684850028%2C0684850028%2C0684850028%2CB002ZFGJ9O%2CB002ZFGJ9O%2CB002ZFGJ9O%2C198615369X%2C198615369X%2C198615369X%2C1422128911%2C1422128911%2C1422128911%2C0814401694%2C0814401694%2C0814401694%2CB079VDGZ9G%2CB079VDGZ9G%2CB079VDGZ9G%2CB00F9FLDAC%2CB00F9FLDAC%2CB00F9FLDAC%22%2C%22debug%22%3A%22false%22%2C%22acap_publisherId%22%3A%22fitnesstra0f0-20%22%2C%22slotNum%22%3A0%7D&amp;u=file%3A%2F%2F%2FD%3A%2Ftraffic%2FIM%2520GROUP%2FCREOs%2Fcreo%2FITALY%2F%25D0%25A4%25D0%259E%25D0%25A2%25D0%259A%25D0%2598%2FNOVEMBER%2FWHITE%2520CLICK%2520API%2Ftrackyourfitnessgoals-com-28.11.19-18.06%2Ftest%2Findex.html&amp;jscb=amzn_assoc_jsonp_callback_adunit_0" charset="UTF-8"></script><link rel="stylesheet" type="text/css" href="./How to Set a Realistic Fitness Goal _ Track Your Fitness Goals_files/d531d.css" media="all">
